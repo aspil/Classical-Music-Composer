@@ -14,7 +14,7 @@ def arg_parser():
     required = parser.add_argument_group('required arguments')
     optional = parser.add_argument_group('optional arguments')
 
-    required.add_argument('-p', '--path', dest='path',
+    required.add_argument('-d', '--data', dest='datapath',
                           type=dir_path, required=True)
     required.add_argument('-c', '--composers', dest='composers',
                           nargs='+', type=str, required=True)
@@ -23,10 +23,10 @@ def arg_parser():
     composers_list = list(map(str.lower, args.composers))
     check_mozart_spelling(composers_list)
 
-    if os.path.isabs(args.path):
-        dataset_path = args.path
+    if os.path.isabs(args.datapath):
+        dataset_path = args.datapath
     else:
-        dataset_path = os.path.abspath(args.path)
+        dataset_path = os.path.abspath(args.datapath)
     return composers_list, dataset_path
 
 

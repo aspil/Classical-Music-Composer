@@ -12,7 +12,7 @@ Install required modules using
 First download the project using `git clone`.
 
 To train the model and generate a new note sequence into a midi file, run:  
-```python src/main.py --path dataset/classical_music_midi --composers <composer names>```
+```python src/main.py --data dataset/classical_music_midi --composers <composer names>```
 
 Composer names should be space separated. For the available composers check the folders in *dataset/classical_music_midi* directory.
 
