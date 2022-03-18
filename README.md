@@ -1,5 +1,7 @@
 # Classical-Music-Composer
 
+**Update: slowly migrating to PyTorch...**
+
 This project was developed and presented for the Computer Music course as a semester project. The goal is to generate classical pieces that follow the musical patterns of the training data.  
 The results were not disappointing nor rewarding as the generated pieces didn't really have those musical patterns in them but they have a lot of potential.  
 That alone sets the challenge.
