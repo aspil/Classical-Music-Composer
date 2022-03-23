@@ -1,14 +1,12 @@
 import os
-import time
 
 import numpy as np
 from keras.callbacks import ModelCheckpoint
 from keras.layers import Bidirectional, LSTM, Dropout, Flatten, Dense, Activation
 from keras.models import Sequential, load_model
-from keras import applications, datasets, preprocessing, wrappers
 from keras_self_attention import SeqSelfAttention
 
-from src.utils.music21_utils import int_to_note_dict
+from deprecated.src.utils.music21_utils import int_to_note_dict
 
 
 class BiLSTMAttentionLSTM:

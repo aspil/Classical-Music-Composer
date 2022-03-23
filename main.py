@@ -1,7 +1,7 @@
 import os
 import argparse
 
-from src.app.app import App
+from deprecated.src.app import App
 from src.utils.utils import check_mozart_spelling
 
 TIMESTEP = 0.25

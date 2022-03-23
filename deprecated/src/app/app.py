@@ -4,7 +4,7 @@ import os
 from src.midi_preprocessing.midipreprocessor import MidiPreprocessor
 from src.midi_preprocessing.seq2midi import create_midi
 from src.network.BiLSTMAttentionLSTM import BiLSTMAttentionLSTM
-from src.utils.music21_utils import get_unique_notes
+from deprecated.src.utils.music21_utils import get_unique_notes
 
 
 class App:

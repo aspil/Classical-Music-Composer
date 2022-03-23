@@ -6,7 +6,7 @@ from music21 import converter
 
 from keras.utils import np_utils
 
-from src.utils.music21_utils import *
+from deprecated.src.utils.music21_utils import *
 
 
 class MidiPreprocessor:
