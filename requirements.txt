@@ -1,5 +1,5 @@
 music21==6.7.1
-numpy==1.19.2
+numpy==1.22.0
 keras_nightly==2.5.0.dev2021032900
 keras_self_attention==0.49.0
 keras==2.4.3
